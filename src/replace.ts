@@ -1,6 +1,6 @@
 import {Fragment, Slice} from "prosemirror-model"
 
-import {ReplaceStep, ReplaceAroundStep} from "./replace_step"
+import {ReplaceStep, ReplaceAroundStep} from "./replace-step"
 import {Transform} from "./transform"
 import {insertPoint} from "./structure"
 

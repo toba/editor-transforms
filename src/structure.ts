@@ -1,7 +1,7 @@
 import {Slice, Fragment} from "prosemirror-model"
 
 import {Transform} from "./transform"
-import {ReplaceStep, ReplaceAroundStep} from "./replace_step"
+import {ReplaceStep, ReplaceAroundStep} from "./replace-step"
 
 function canCut(node, start, end) {
   return (start == 0 || node.canReplace(start, node.childCount)) &&
